@@ -7,7 +7,7 @@ import pandas as pd
 conexao = mysql.connector.connect(host='localhost',
                                   database='cadastro',
                                   user='root',
-                                  password='lucas2003@',
+                                  password='******',
                                   autocommit=True)
 #DEFININDO O CURSOR
 
