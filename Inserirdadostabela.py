@@ -2,7 +2,7 @@ import mysql.connector
 from mysql.connector import Error
 
 try:
-    con = mysql.connector.connect(host='localhost',  database='cadastro', user= 'root', password='lucas2003@')
+    con = mysql.connector.connect(host='localhost',  database='cadastro', user= 'root', password='******')
 
     inserir_produtos =""" Insert into tbl_produtos
                             (IdProduto, NomeProduto, Preco, Quantidade)
